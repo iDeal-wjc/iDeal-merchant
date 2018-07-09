@@ -12,7 +12,10 @@ Page({
         correct: 'true'
       },
       success: function(res) {
-        console.log(res.data)
+        wx.showToast({
+          title: '成功！' + res.data,
+          duration: 2000
+        })
       }
     })
   }

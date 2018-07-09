@@ -2,4 +2,5 @@
   <button type='default' size='mini' bindtap='scanCode'>点击进入扫描页</button>
   <button type='primary' size='mini' bindtap='makeApiCall'>发起API请求</button>
   <button type='warn' size='mini' bindtap='uploadImage'>上传图片</button>
+  <button type='warn' size='mini' bindtap='showForm'>表单</button>
 </view>

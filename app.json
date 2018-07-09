@@ -3,6 +3,8 @@
     "pages/index/index",
     "pages/scanCode/scanCode",
     "pages/apiRequest/apiRequest",
+    "pages/uploadImage/uploadImage",
+    "pages/form/form",
     "pages/logs/logs"
   ],
   "window":{
