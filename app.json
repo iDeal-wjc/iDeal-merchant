@@ -1,6 +1,8 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/scanCode/scanCode",
+    "pages/apiRequest/apiRequest",
     "pages/logs/logs"
   ],
   "window":{

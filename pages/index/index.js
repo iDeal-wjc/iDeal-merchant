@@ -1,39 +1,18 @@
-//index.js
-//获取应用实例
 const app = getApp()
 
 Page({
   data: {
-    show: "",
   },
 
-  onLoad: function() {
-    console.log('onLoad')
-  },
   scanCode: function() {
-    var that = this;
-    var show;
-    wx.scanCode({
-      success: (res) => {
-        this.show = "结果:" + res.result + "二维码类型:" + res.scanType + "字符集:" + res.charSet + "路径:" + res.path;
-        that.setData({
-          show: this.show
-        })
-        wx.showToast({
-          title: '成功',
-          icon: 'success',
-          duration: 2000
-        })
-      },
-      fail: (res) => {
-        console.log(res.result)
-        wx.showToast({
-          title: '失败',
-          icon: 'success',
-          duration: 2000
-        })
-      },
-      complete: (res) => {}
+    wx.navigateTo({
+      url: '/pages/scanCode/scanCode',
+    })
+  },
+
+  makeApiCall: function() {
+    wx.navigateTo({
+      url: '/pages/apiRequest/apiRequest',
     })
   }
 })
