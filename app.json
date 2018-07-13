@@ -1,11 +1,8 @@
 {
   "pages": [
     "pages/deal/deal",
-    "pages/scanCode/scanCode",
-    "pages/apiRequest/apiRequest",
-    "pages/uploadImage/uploadImage",
-    "pages/form/form",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/form/form"
   ],
   "window": {
     "backgroundTextStyle": "light",
