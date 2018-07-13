@@ -1,0 +1,8 @@
+<view class='buttons'>
+  <button class='button'>正在进行</button>
+  <button class='button'>已经过期</button>
+</view>
+<view class='center-column'>
+  <image style="width:700rpx;height:300rpx" src="{{imageUrl}}" mode="scaleToFill" />
+  <textarea style="width:700rpx;height:300rpx" value='123dxvjkhfjk sdhfkjsdhkfsdshdshdjfhsdbfhsdfsdhfgsdhjfshfvsdhjfhjsdfsdhjfgsdhjfvshjdfvhsjdfvhjsdfvhsdjfvjsdh'></textarea>
+</view>

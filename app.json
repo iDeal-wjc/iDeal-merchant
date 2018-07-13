@@ -1,16 +1,39 @@
 {
-  "pages":[
-    "pages/index/index",
+  "pages": [
+    "pages/deal/deal",
     "pages/scanCode/scanCode",
     "pages/apiRequest/apiRequest",
     "pages/uploadImage/uploadImage",
     "pages/form/form",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "折扣101商家版",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/deal/deal",
+        "text": "折扣",
+        "iconPath": "images/phone.png",
+        "selectedIconPath": "images/phone_selected.png"
+      },
+      {
+        "pagePath": "pages/form/form",
+        "text": "",
+        "iconPath": "images/phone.png",
+        "selectedIconPath": "images/phone_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "images/phone.png",
+        "selectedIconPath": "images/phone_selected.png"
+      }
+    ]
   }
 }

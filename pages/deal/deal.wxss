@@ -1,0 +1,23 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  border-radius: 0;
+  width: 50%;
+}
+
+.button::after {
+  border-radius: 0;
+}
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
