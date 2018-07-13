@@ -2,9 +2,9 @@
   <button class='button'>正在进行</button>
   <button class='button'>已经过期</button>
 </view>
-<block wx:for="{{[1, 2]}}" wx:key="dealCards">
+<block wx:for="{{dealCards}}" wx:key="dealCards">
 <view class='center-column'>
-  <image style="width:700rpx;height:300rpx" src="{{imageUrl}}" mode="scaleToFill" />
-  <textarea style="width:700rpx;height:300rpx" value='海鲜大餐折扣活动，满 100 减 120 ，跳楼大减价'></textarea>
+  <image style="width:700rpx;height:300rpx" src="{{item.imageUrl}}" data-index="{{item.index}}" mode="scaleToFill" />
+  <textarea style="width:700rpx;height:300rpx" value='{{item.content}}'></textarea>
 </view>
 </block>
