@@ -1,10 +1,12 @@
-<view class='buttons'>
-  <button class='button'>正在进行</button>
-  <button class='button'>已经过期</button>
+<view class='container'>
+  <view class='buttons'>
+    <button class='button'>正在进行</button>
+    <button class='button'>已经过期</button>
+  </view>
+  <view wx:for="{{dealCards}}" wx:key="dealCards">
+    <view class='centercolumn' bindtap="tapCard" data-index="{{item.index}}">
+      <image style="width:700rpx;height:300rpx" src="{{item.imageUrl}}" mode="scaleToFill" />
+      <view style="width:700rpx">{{item.content}}</view>
+    </view>
+  </view>
 </view>
-<block wx:for="{{dealCards}}" wx:key="dealCards">
-<view class='centercolumn' bindtap="tapCard" data-index="{{item.index}}">
-  <image style="width:700rpx;height:300rpx" src="{{item.imageUrl}}" mode="scaleToFill" />
-  <textarea style="width:700rpx;height:300rpx" value='{{item.content}}'></textarea>
-</view>
-</block>

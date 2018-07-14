@@ -6,12 +6,12 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#f00",
+    "navigationBarBackgroundColor": "#f9343e",
     "navigationBarTitleText": "折扣101商家版",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "selectedColor": "#1296db",
+    "selectedColor": "#929292",
     "list": [
       {
         "pagePath": "pages/deal/deal",
