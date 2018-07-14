@@ -3,8 +3,8 @@
   <button class='button'>已经过期</button>
 </view>
 <block wx:for="{{dealCards}}" wx:key="dealCards">
-<view class='center-column'>
-  <image style="width:700rpx;height:300rpx" src="{{item.imageUrl}}" data-index="{{item.index}}" mode="scaleToFill" />
+<view class='centercolumn' bindtap="tapCard" data-index="{{item.index}}">
+  <image style="width:700rpx;height:300rpx" src="{{item.imageUrl}}" mode="scaleToFill" />
   <textarea style="width:700rpx;height:300rpx" value='{{item.content}}'></textarea>
 </view>
 </block>

@@ -11,7 +11,7 @@ Page({
       },
       {
         index: 1,
-        imageUrl: "https://googlechrome.github.io/samples/picture-element/images/butterfly.webp",
+        imageUrl: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1532130459&di=bfd8d9b7fbe2fbd2676b982132f5ee4b&imgtype=jpg&er=1&src=http%3A%2F%2Fimgup01.sj88.com%2F2018-06%2F25%2F14%2F15299064674671_2.jpg",
         content: "大龙虾当小龙虾卖啦！~ 10 块钱一个"
       },
       {
@@ -22,9 +22,8 @@ Page({
     ]
   },
 
-  scanCode: function() {
-    wx.navigateTo({
-      url: '/pages/scanCode/scanCode',
-    })
+  tapCard: function(e) {
+    var index = e.currentTarget.dataset.index
+    console.log(index)
   }
 })
