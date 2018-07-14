@@ -28,3 +28,29 @@
   flex-direction: column;
   align-items: center;
 }
+
+image {
+  width: 700rpx;
+  height: 300rpx;
+}
+
+.info {
+  background-color: white;
+  width: 700rpx;
+}
+
+.content {
+  width: 700rpx;
+  font-size: 14px;
+  color: #646464;
+  margin: 20rpx;
+}
+
+.count {
+  width: 700rpx;
+  font-size: 12px;
+  color: #969696;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+}
