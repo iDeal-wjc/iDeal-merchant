@@ -35,7 +35,7 @@ image {
   margin-bottom: 16rpx;
 }
 
-.swiper-tab {
+.swiper-tabs {
   width: 100%;
   border-bottom: 2rpx solid #777;
   text-align: center;
@@ -45,7 +45,7 @@ image {
   z-index: 1;
 }
 
-.swiper-tab-list {
+.swiper-tab {
   font-size: 28rpx;
   display: inline-block;
   width: 50%;
