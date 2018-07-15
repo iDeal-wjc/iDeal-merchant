@@ -16,8 +16,8 @@
       {
         "pagePath": "pages/deal/deal",
         "text": "折扣",
-        "iconPath": "images/phone.png",
-        "selectedIconPath": "images/phone_selected.png"
+        "iconPath": "images/list_normal@3x.png",
+        "selectedIconPath": "images/list_active@3x.png"
       },
       {
         "pagePath": "pages/form/form",
@@ -28,8 +28,8 @@
       {
         "pagePath": "pages/logs/logs",
         "text": "我的",
-        "iconPath": "images/phone.png",
-        "selectedIconPath": "images/phone_selected.png"
+        "iconPath": "images/me_normal@3x.png",
+        "selectedIconPath": "images/me_active@3x.png"
       }
     ]
   }

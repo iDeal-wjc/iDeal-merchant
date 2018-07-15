@@ -35,14 +35,18 @@ image {
 }
 
 .content {
-  width: 690rpx;
+  display: flex;
+  text-align: left;
+  width: 658rpx;
   font-size: 28rpx;
   color: #646464;
   margin: 16rpx;
 }
 
 .count {
-  width: 690rpx;
+  display: flex;
+  text-align: left;
+  width: 658rpx;
   font-size: 24rpx;
   color: #969696;
   margin-left: 16rpx;
