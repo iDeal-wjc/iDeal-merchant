@@ -5,7 +5,7 @@
 <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
   <swiper-item>
     <view wx:for="{{dealCards}}" wx:key="dealCards">
-      <view class='centercolumn' bindtap="tapCard" data-index="{{item.index}}">
+      <view class='center-column' bindtap="tapCard" data-index="{{item.index}}">
         <image src="{{item.imageUrl}}" mode="scaleToFill" />
         <view class='info'>
           <view class='content'>{{item.content}}</view>
@@ -16,8 +16,8 @@
   </swiper-item>
   <swiper-item>
     <view wx:for="{{dealCards}}" wx:key="dealCards">
-      <view class='centercolumn' bindtap="tapCard" data-index="{{item.index}}">
-        <image src="{{item.imageUrl}}" mode="scaleToFill" />
+      <view class='center-column' bindtap="tapCard" data-index="{{item.index}}">
+        <image src="{{item.imageUrl}}" class="gray" mode="scaleToFill" />
         <view class='info'>
           <view class='content'>{{item.content}}</view>
           <view class='count'>{{item.viewAndUseCount}}</view>
