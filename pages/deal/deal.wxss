@@ -60,6 +60,8 @@ image {
   text-align: center;
   line-height: 80rpx;
   background-color: #fa4f54;
+  position: fixed;
+  z-index: 1;
 }
 
 .swiper-tab-list {
@@ -79,6 +81,9 @@ image {
   width: 100%;
   overflow: hidden;
   background-color: #f5f5f5;
+  position: absolute;
+  top: 91rpx;
+  z-index: 0;
 }
 
 .swiper-box view {
