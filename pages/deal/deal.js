@@ -4,7 +4,6 @@ Page({
   data: {
     winWidth: 0,
     winHeight: 0,
-    // tab切换
     currentTab: 0,
     imageUrl: "http://img1.3lian.com/2015/w7/85/d/101.jpg",
     dealCards: [{
@@ -46,24 +45,17 @@ Page({
     });
   },
 
-  /**
-   * 滑动切换tab
-   */
-  bindChange: function(e) {
-
+  // 滑动切换tab
+  onSwipe: function(e) {
     var that = this;
     that.setData({
       currentTab: e.detail.current
     });
-
   },
-  /**
-   * 点击tab切换
-   */
+
+  // 点击tab切换
   swichNav: function(e) {
-
     var that = this;
-
     if (this.data.currentTab === e.target.dataset.current) {
       return false;
     } else {

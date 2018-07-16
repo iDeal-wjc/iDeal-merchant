@@ -1,8 +1,12 @@
 <view class="swiper-tabs">
-  <view class="swiper-tab {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">正在进行</view>
-  <view class="swiper-tab {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">已经过期</view>
+  <view class="swiper-tab {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">未开始</view>
+  <view class="swiper-tab {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">正在进行</view>
+  <view class="swiper-tab {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">已经过期</view>
 </view>
-<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight + 31}}px" bindchange="bindChange">
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight + 60}}px" bindchange="onSwipe">
+<swiper-item>
+    <view>No data</view>
+  </swiper-item>
   <swiper-item>
     <view wx:for="{{dealCards}}" wx:key="dealCards">
       <view class='center-column' bindtap="tapCard" data-index="{{item.index}}">

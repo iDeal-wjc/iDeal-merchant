@@ -39,7 +39,7 @@ image {
   width: 100%;
   border-bottom: 2rpx solid #777;
   text-align: center;
-  line-height: 80rpx;
+  line-height: 72rpx;
   background-color: #fa4f54;
   position: fixed;
   z-index: 1;
@@ -48,12 +48,24 @@ image {
 .swiper-tab {
   font-size: 28rpx;
   display: inline-block;
-  width: 50%;
+  width: 33.3%;
   color: white;
 }
 
 .on {
-  border-bottom: 5rpx solid white;
+  color: white;
+  position: relative;
+}
+
+.on::after {
+  content: "";
+  display: block;
+  height: 5rpx;
+  width: 52rpx;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 100rpx;
 }
 
 .swiper-box {
@@ -63,7 +75,7 @@ image {
   overflow: hidden;
   background-color: #f5f5f5;
   position: absolute;
-  top: 91rpx;
+  top: 77rpx;
   z-index: 0;
 }
 
