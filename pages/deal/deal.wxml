@@ -4,13 +4,13 @@
   <view class="swiper-tab {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">已经过期</view>
 </view>
 <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight + 60}}px" bindchange="onSwipe">
-<swiper-item>
+  <swiper-item>
     <view>No data</view>
   </swiper-item>
   <swiper-item>
     <view wx:for="{{dealCards}}" wx:key="dealCards">
       <view class='center-column' bindtap="tapCard" data-index="{{item.index}}">
-        <image src="{{item.imageUrl}}" mode="scaleToFill" />
+        <image src="{{item.imageUrl}}" class="regular-image" mode="scaleToFill" />
         <view class='info'>
           <view class='content'>{{item.content}}</view>
           <view class='count'>{{item.viewAndUseCount}}</view>
@@ -21,7 +21,10 @@
   <swiper-item>
     <view wx:for="{{dealCards}}" wx:key="dealCards">
       <view class='center-column' bindtap="tapCard" data-index="{{item.index}}">
-        <image src="{{item.imageUrl}}" class="gray" mode="scaleToFill" />
+        <view class='images'>
+          <image src="{{item.imageUrl}}" class="gray-image" mode="scaleToFill" />
+          <image src="https://www.seoclerk.com/pics/558390-11FO8A1505384509.png" class="label-image" mode="scaleToFill" />
+        </view>
         <view class='info'>
           <view class='content'>{{item.content}}</view>
           <view class='count'>{{item.viewAndUseCount}}</view>

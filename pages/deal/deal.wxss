@@ -5,7 +5,7 @@
   margin-top: 30rpx;
 }
 
-image {
+.regular-image {
   width: 690rpx;
   height: 364rpx;
 }
@@ -83,6 +83,25 @@ image {
   text-align: center;
 }
 
-.gray {
+.images {
+  position: relative;
+  width: 690rpx;
+  height: 364rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gray-image {
   filter: grayscale(100%);
+  position: absolute;
+  width: 690rpx;
+  height: 364rpx;
+}
+
+.label-image {
+  position: absolute;
+  right: 200rpx;
+  width: 100rpx;
+  height: 60rpx;
 }
