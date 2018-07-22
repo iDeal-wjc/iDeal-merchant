@@ -45,3 +45,9 @@
   font-size: 32rpx;
   margin-left: 16rpx;
 }
+
+page {
+  display: block;
+  min-height: 100%;
+  background-color: #f2f2f2;
+}
