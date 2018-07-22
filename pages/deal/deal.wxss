@@ -97,11 +97,12 @@
   position: absolute;
   width: 690rpx;
   height: 364rpx;
+  z-index: -1;
 }
 
-.label-image {
+.image-label {
   position: absolute;
-  right: 200rpx;
-  width: 100rpx;
-  height: 60rpx;
+  right: 0rpx;
+  width: 168rpx;
+  height: 161rpx;
 }

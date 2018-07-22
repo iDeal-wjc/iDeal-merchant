@@ -23,7 +23,7 @@
       <view class='center-column' bindtap="tapCard" data-index="{{item.index}}">
         <view class='images'>
           <image src="{{item.imageUrl}}" class="gray-image" mode="scaleToFill" />
-          <image src="https://www.seoclerk.com/pics/558390-11FO8A1505384509.png" class="label-image" mode="scaleToFill" />
+          <image src="/images/expired.png" class='image-label' mode="scaleToFill" />
         </view>
         <view class='info'>
           <view class='content'>{{item.content}}</view>
