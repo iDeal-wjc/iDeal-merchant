@@ -2,7 +2,8 @@
   "pages": [
     "pages/deal/deal",
     "pages/logs/logs",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/myProfile/myProfile"
   ],
   "window": {
     "backgroundTextStyle": "light",

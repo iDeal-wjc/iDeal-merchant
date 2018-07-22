@@ -1,0 +1,30 @@
+page {
+  display: block;
+  min-height: 100%;
+  background-color: #f2f2f2;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-top: 38rpx;
+  height: 88rpx;
+  background-color: white;
+}
+
+.password-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rpx;
+  height: 88rpx;
+  background-color: white;
+}
+
+.row-text {
+  font-size: 28rpx;
+  margin-left: 30rpx;
+}
