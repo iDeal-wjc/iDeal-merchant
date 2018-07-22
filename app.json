@@ -2,7 +2,7 @@
   "pages": [
     "pages/deal/deal",
     "pages/logs/logs",
-    "pages/form/form"
+    "pages/me/me"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,13 +20,13 @@
         "selectedIconPath": "images/list_active@3x.png"
       },
       {
-        "pagePath": "pages/form/form",
+        "pagePath": "pages/logs/logs",
         "text": "",
         "iconPath": "images/phone.png",
         "selectedIconPath": "images/phone_selected.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/me/me",
         "text": "我的",
         "iconPath": "images/me_normal@3x.png",
         "selectedIconPath": "images/me_active@3x.png"
