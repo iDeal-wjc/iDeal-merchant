@@ -3,7 +3,8 @@
     "pages/deal/deal",
     "pages/logs/logs",
     "pages/me/me",
-    "pages/myProfile/myProfile"
+    "pages/myProfile/myProfile",
+    "pages/password/password"
   ],
   "window": {
     "backgroundTextStyle": "light",
