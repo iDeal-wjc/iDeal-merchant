@@ -2,7 +2,9 @@ var app = getApp();
 Page({
   data: {
     hideModal: true,
-    inputValue: ''
+    oldPassword: '',
+    newPassword: '',
+    newPasswordAgain: ''
   },
 
   onLoad: function() {
@@ -13,9 +15,8 @@ Page({
 
   modalInput: function(e) {
     this.setData({
-      inputValue: e.detail.value
+      oldPassword: e.detail.value
     })
-    console.log(this.data.inputValue)
   },
 
   cancel: function() {
@@ -28,5 +29,21 @@ Page({
     this.setData({
       hideModal: true
     })
+  },
+
+  enterNewPW: function(e) {
+    this.setData({
+      newPassword: e.detail.value
+    })
+  },
+
+  enterNewPWAgain: function(e) {
+    this.setData({
+      newPasswordAgain: e.detail.value
+    })
+  },
+
+  save: function() {
+
   }
 })
