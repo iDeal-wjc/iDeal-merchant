@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/deal/deal",
+    "pages/home/home",
     "pages/addDeal/addDeal",
     "pages/me/me",
     "pages/myProfile/myProfile",
@@ -16,7 +16,7 @@
     "selectedColor": "#929292",
     "list": [
       {
-        "pagePath": "pages/deal/deal",
+        "pagePath": "pages/home/home",
         "text": "折扣",
         "iconPath": "images/list_normal@3x.png",
         "selectedIconPath": "images/list_active@3x.png"

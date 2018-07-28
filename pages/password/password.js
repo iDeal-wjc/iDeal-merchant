@@ -4,7 +4,8 @@ Page({
     hideModal: true,
     oldPassword: '',
     newPassword: '',
-    newPasswordAgain: ''
+    newPasswordAgain: '',
+    buttonBgColor: '#bcbcbc'
   },
 
   onLoad: function() {
@@ -41,9 +42,16 @@ Page({
     this.setData({
       newPasswordAgain: e.detail.value
     })
+    var bgColor = this.data.newPassword == '' || this.data.newPasswordAgain == '' ? '#bcbcbc' : '#FD4D4F'
+    this.setData({
+      buttonBgColor: bgColor
+    })
   },
 
   save: function() {
-
+    if (this.data.buttonBgColor == '#bcbcbc') {
+      return;
+    }
+    console.log("clicked")
   }
 })
