@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/deal/deal",
-    "pages/logs/logs",
+    "pages/addDeal/addDeal",
     "pages/me/me",
     "pages/myProfile/myProfile",
     "pages/password/password"
@@ -22,7 +22,7 @@
         "selectedIconPath": "images/list_active@3x.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/addDeal/addDeal",
         "text": "",
         "iconPath": "images/phone.png",
         "selectedIconPath": "images/phone_selected.png"

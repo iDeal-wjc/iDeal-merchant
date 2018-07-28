@@ -1,0 +1,16 @@
+<view class='add-deal-container side-margins'>
+  <image src='/images/add_button.png' class='add-button'></image>
+  <view class='gray-text'>折扣商品图片</view>
+</view>
+<input placeholder='请添加折扣解读文字，不超过20字' class='gray-text side-margins' style='height:156rpx'></input>
+<view class='separator side-margins'></view>
+<view class='time-container side-margins'>
+  <view class='black-text'>折扣时段开始时间</view>
+  <view class='gray-text'>2018-07-12 00:00:00</view>
+</view>
+<view class='separator side-margins'></view>
+<view class='time-container side-margins'>
+  <view class='black-text'>折扣时段结束时间</view>
+  <view class='gray-text'>2018-07-16 00:00:00</view>
+</view>
+<view class='separator side-margins'></view>
