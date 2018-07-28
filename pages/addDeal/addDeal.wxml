@@ -1,4 +1,4 @@
-<scroll-view scroll-y="false" style='height:100%'>
+<scroll-view style='height:100%'>
   <view class='add-deal-container side-margins'>
     <image src='/images/add_button.png' class='add-button'></image>
     <view class='gray-text'>折扣商品图片</view>
