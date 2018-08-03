@@ -66,3 +66,9 @@ page {
   color: white;
   border-radius: 8rpx;
 }
+
+.row-right-image {
+  width: 25rpx;
+  height: 42rpx;
+  margin-left: 34rpx;
+}

@@ -34,7 +34,7 @@
   background-color: white;
 }
 
-.row-image {
+.row-left-image {
   width: 48rpx;
   height: 37.6rpx;
   margin-left: 30rpx;
@@ -44,6 +44,12 @@
   color: #323232;
   font-size: 32rpx;
   margin-left: 16rpx;
+}
+
+.row-right-image {
+  width: 25rpx;
+  height: 42rpx;
+  margin-left: 474rpx;
 }
 
 page {

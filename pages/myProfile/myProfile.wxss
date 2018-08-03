@@ -28,3 +28,9 @@ page {
   font-size: 28rpx;
   margin-left: 30rpx;
 }
+
+.row-right-image {
+  width: 25rpx;
+  height: 42rpx;
+  margin-left: 554rpx;
+}

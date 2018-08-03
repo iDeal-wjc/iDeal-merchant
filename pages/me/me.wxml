@@ -3,6 +3,7 @@
   <view class='header-text'>商铺名称</view>
 </view>
 <view class='row' bindtap="tapRow">
-  <image class='row-image' src='https://cmkml1r1zkj34mfam5798011-wpengine.netdna-ssl.com/ch-en/wp-content/uploads/sites/19/2016/04/genetics-icon.png'></image>
+  <image class='row-left-image' src='https://cmkml1r1zkj34mfam5798011-wpengine.netdna-ssl.com/ch-en/wp-content/uploads/sites/19/2016/04/genetics-icon.png'></image>
   <view class='row-text'>我的档案</view>
+  <image class='row-right-image' src='/images/next.png'></image>
 </view>

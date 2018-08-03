@@ -1,6 +1,8 @@
 <view class='info-row' bindtap="getShopInfo">
   <view class='row-text'>商铺信息</view>
+  <image class='row-right-image' src='/images/next.png'></image>
 </view>
 <view class='password-row' bindtap="resetPassword">
   <view class='row-text'>重置密码</view>
+  <image class='row-right-image' src='/images/next.png'></image>
 </view>

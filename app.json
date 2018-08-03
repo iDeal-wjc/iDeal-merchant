@@ -24,8 +24,8 @@
       {
         "pagePath": "pages/addDeal/addDeal",
         "text": "",
-        "iconPath": "images/phone.png",
-        "selectedIconPath": "images/phone_selected.png"
+        "iconPath": "images/red_add_button.png",
+        "selectedIconPath": "images/red_add_button.png"
       },
       {
         "pagePath": "pages/me/me",
