@@ -1,0 +1,6 @@
+<view class='header'>企业信息</view>
+<view class='info-row'>
+  <view class='title'>企业名称</view>
+  <input class='value' placeholder='请输入公司名称' auto-focus='true' bindinput='enterpriseName'></input>
+</view>
+<view class='separator left-margins'></view>

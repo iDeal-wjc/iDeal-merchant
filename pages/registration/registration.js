@@ -1,5 +1,13 @@
 var app = getApp();
 
 Page({
-  data: {}
+  data: {
+    enterpriseName: ''
+  },
+
+  enterpriseName: function(e) {
+    this.setData({
+      enterpriseName: e.detail.value
+    })
+  },
 })
